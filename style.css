@@ -6,6 +6,8 @@
 
 /* INIZIO COMMON CSS */
 
+/* MARGIN-TOP */
+
 .margin-top-15 {
     margin-top: 15px;
 }
@@ -21,6 +23,8 @@
 .margin-top-75 {
     margin-top: 75px;
 }
+
+/* MARGIN-BOTTOM */
 
 .margin-bottom-15 {
     margin-bottom: 15px;
@@ -44,7 +48,13 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
+    transition: background 3s ease 0s;
 }
+
+.ex-1-square:hover {
+    background-color: red;
+}
+
 .ex-2-square {
     width: 100px;
     height: 100px;
