@@ -186,8 +186,28 @@
     }
 }
 
+/* eleventh ex. */
+
 .ex-11-icon {
     font-size: 60px;
+}
+
+.ex-11-icon:hover {
+    animation: spinner 1s infinite;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(280deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
 .ex-12-button, .ex-13-button {
     position: relative;
